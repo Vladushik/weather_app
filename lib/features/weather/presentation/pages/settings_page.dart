@@ -7,42 +7,6 @@ import 'package:weather_app/features/weather/presentation/bloc/settings_bloc/set
 import 'package:weather_app/features/weather/presentation/bloc/settings_bloc/settings_event.dart';
 import '../../../../injection_container.dart';
 
-// class SettingsPage extends StatefulWidget {
-//   const SettingsPage({Key? key}) : super(key: key);
-//
-//   @override
-//   State<SettingsPage> createState() => _SettingsPageState();
-// }
-//
-// class _SettingsPageState extends State<SettingsPage> {
-//   final textFieldController = TextEditingController();
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return SafeArea(
-//       child: Column(
-//         children: [
-//           TextField(
-//             controller: textFieldController,
-//           ),
-//           ElevatedButton(
-//             onPressed: () => {_saveCountry()},
-//             child: const Text(
-//               'Save',
-//             ),
-//           ),
-//         ],
-//       ),
-//     );
-//   }
-//
-//   _saveCountry() async {
-//     SharedPreferences prefs = await SharedPreferences.getInstance();
-//     prefs.clear();
-//     await prefs.setString('city', textFieldController.text);
-//   }
-// }
-
 class SettingsPage extends StatelessWidget {
   const SettingsPage({Key? key}) : super(key: key);
 

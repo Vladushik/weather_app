@@ -200,13 +200,6 @@ class WeatherForm extends StatelessWidget {
                                     ],
                                   ),
                                 );
-
-                                // return const Card(
-                                //   child: ListTile(
-                                //     title: Text(
-                                //         'Hello'), // Text('${state.loadedCrypt[index].name}'),
-                                //   ),
-                                // );
                               },
                             ),
                           ),
